@@ -37,7 +37,7 @@ let colorStates = {
 let articleHearts = document.querySelectorAll(".like");
 
 function likeCallback(e) {
-  let heart = e.target.document.querySelectorAll(".like-glyph");
+  let heart = e.target;
   mimicServerCall("bogusUrl")
    //OR: mimicServerCall("bogusUrl", {forceFailure: true})
     .then(function(serverMessage){
