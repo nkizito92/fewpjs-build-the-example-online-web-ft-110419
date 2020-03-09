@@ -11,6 +11,7 @@ let like = document.querySelectorAll(".like");
   });
 
 function liketoggle(e){
+   mimicServerCall("bogusUrl")
   let likes = e.target.querySelector(".like-glyph");
     if (likes.innerText === EMPTY_HEART){
       likes.innerText = FULL_HEART;
