@@ -48,7 +48,7 @@ function likeCallback(e) {
       // alert("Something went wrong!");
       document.getElementById("modal").className = "";
       let err = document.getElementById("modal");
-      err.innerText = error
+      err.innerText = error.message
     });
 }
 
