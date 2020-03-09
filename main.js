@@ -21,7 +21,7 @@ function liketoggle(e){
       likes.innerText = EMPTY_HEART;
       likes.style.color = "#AAB8C2";
     }
-    mimicServerCall()
+    mimicServerCall("")
 }
 
 //------------------------------------------------------------------------------
